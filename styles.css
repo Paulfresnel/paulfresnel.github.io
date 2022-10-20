@@ -1,0 +1,468 @@
+*{
+    margin:0;
+    padding:0;
+}
+@media (min-width:1420px){
+header {
+    background-color:#55286F;
+    color: #EDF2F4;
+    width: 100%;
+    position:fixed;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 75px;
+    margin-left: 10vw;
+}
+
+.margin{
+    margin-right: 10vw;
+    display: flex;
+}
+
+.navlink {
+    list-style-type: none;
+    margin-right: 15px;
+    font-size: 1.15rem;
+    cursor: pointer;
+    width:100px;
+}
+
+h1{
+    align-items: left;
+    margin-right:30vw;
+    width:250px;
+}
+
+.main > button {
+    background-color: #E00034;
+    color:#EDF2F4;
+    padding: 25px 50px 25px 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:650px;
+    background-image: url(./Images/dynamic-wang-irn9H9-Kfq4-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+        color:#EDF2F4
+}
+
+h2{
+    font-size: 5rem;
+    margin-bottom: 0;
+    background-color: #D9DFE8;
+    border: 2px solid #EF233C;
+    padding:15px 35px 15px 35px;
+    margin-bottom: 50px;
+    border-radius: 50px;    
+    color: #540D6E
+}
+
+.main > p {
+    font-size: 1.5rem;
+}
+
+.projects {
+    background-color: #D9DFE8;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 25px 150px 25px 150px;
+    border-left: 1px black solid;    
+    border-right: 1px black solid; 
+}
+
+.project-link {
+    padding:10px 25px 10px 25px;
+    background-color: #E00034;
+    border-radius: 25px;
+    color:#EDF2F4;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    border: #2B2D42 2px solid;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.project-link:hover{
+    background-color: #0C7C59;
+    transform:scale(1.2);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width:250px;
+    justify-content: space-evenly;
+    border:2.5px #2B2D42 solid;
+    border-radius: 55px;
+    padding:15px;
+    height: 350px;
+    margin-bottom: 15px;
+    transition: transform 0.5s;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 25px;
+}
+
+
+.card:hover{
+    transform: scale(1.15);
+    border: 3px solid #0C7C59;
+    background-color: #EDF2F4;
+}
+
+.background-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height:150px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bg1{
+    background-image: url(./Images/sum\ game.jpg);
+}
+
+h3{
+    background-color: #D9DFE8;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding-top: 25px;
+}
+
+.form{
+    background-color: #8D99AE;
+    padding-top: 15px;
+    height:70px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 15px;
+    width: 100%;
+
+}
+
+.form label {
+    margin-right: 10px;
+    font-size: 1.3rem;
+    color:#540D6E;
+    font-weight: bold;
+}
+
+.form input {
+    height:25px;
+    margin-right: 55px;
+    
+}
+
+.form button {
+    background-color: #E00034;
+    padding: 11px 35px 11px 35px;
+    font-size: 1.5rem;
+    color:white;
+    font-weight: bold;
+    margin-left: 25px;
+    border-radius: 35px;
+    border: 2px #D9DFE8 solid;
+}
+
+.form button:hover {
+    background-color: #EDF2F4;
+    border: 2px #0C7C59 solid;
+    color:#2B2D42
+}
+
+h4{
+    font-size: 1.25rem;
+}
+
+input:focus{
+    background-color: #10b85b;
+    cursor: pointer;
+    font-size: 1.05rem;
+}
+footer{
+    background-color: #D9DFE8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.icon-footer{
+    margin-right: 5px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+}
+
+@media (max-width:1420px){
+    header {
+            background-color: blue;
+            color: #EDF2F4;
+            position: fixed;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            width:100%;
+        }
+
+    .flex {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         width:100%;
+    }
+    .logo {
+        width: 75px;
+        margin-left: 10vw;
+    }
+        .margin {
+            display: flex;
+            margin-right: 10vw;
+        }
+    
+        .navlink {
+            list-style-type: none;
+            margin-right: 15px;
+            font-size: 1.15rem;
+            cursor: pointer;
+        }
+    
+        h1 {
+            margin-right:15vw;
+        }
+    
+        .main>button {
+            background-color: #E00034;
+            color: #EDF2F4;
+            padding: 25px 50px 25px 50px;
+        }
+    
+        .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 650px;
+            background-image: url(./Images/dynamic-wang-irn9H9-Kfq4-unsplash.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            color: #EDF2F4
+        }
+    
+        h2 {
+            font-size: 5rem;
+            margin-bottom: 0;
+            background-color: #D9DFE8;
+            border: 2px solid #EF233C;
+            padding: 15px 35px 15px 35px;
+            margin-bottom: 50px;
+            border-radius: 50px;
+            color: #540D6E
+        }
+    
+        .main>p {
+            font-size: 1.5rem;
+        }
+    
+        .projects {
+            background-color: #D9DFE8;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 25px 10vw 25px 10vw;
+            border-left: 1px black solid;
+            border-right: 1px black solid;
+        }
+    
+        .project-link {
+            padding: 10px 25px 10px 25px;
+            background-color: #E00034;
+            border-radius: 25px;
+            color: #EDF2F4;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            border: #2B2D42 2px solid;
+            text-decoration: none;
+            font-weight: bold;
+    
+        }
+    
+        .project-link:hover {
+            background-color: #0C7C59;
+            transform: scale(1.2);
+        }
+    
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            width: 250px;
+            justify-content: space-evenly;
+            border: 2.5px #2B2D42 solid;
+            border-radius: 55px;
+            padding: 15px;
+            height: 350px;
+            margin-bottom: 15px;
+            transition: transform 0.5s;
+            margin-right: 15px;
+            margin-left: 15px;
+            padding-left: 35px;
+            padding-right: 35px;
+            margin-bottom: 25px;
+        }
+    
+    
+        .card:hover {
+            transform: scale(1.15);
+            border: 3px solid #0C7C59;
+            background-color: #EDF2F4;
+        }
+    
+        .background-image {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: 150px;
+            border-radius: 25px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    
+        .bg1 {
+            background-image: url(./Images/sum\ game.jpg);
+        }
+    
+        h3 {
+            background-color: #D9DFE8;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            padding-top: 25px;
+        }
+    
+        .form {
+            background-color: #8D99AE;
+            padding-top: 15px;
+            height: 70px;
+            padding-left: 5vw;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-bottom: 15px;
+    
+        }
+    
+        .form label {
+            margin-right: 1vw;
+            font-size: 1.3rem;
+            color: #540D6E;
+            font-weight: bold;
+        }
+    
+        .form input {
+            height: 25px;
+            margin-right: 3vw;
+    
+        }
+    
+        .form button {
+            background-color: #E00034;
+            padding: 11px 35px 11px 35px;
+            font-size: 1.5rem;
+            color: white;
+            font-weight: bold;
+            margin-left: 1vw;
+            border-radius: 35px;
+            border: 2px #D9DFE8 solid;
+            margin-right: 5vw;
+        }
+    
+        .form button:hover {
+            background-color: #EDF2F4;
+            border: 2px #0C7C59 solid;
+            color: #2B2D42
+        }
+    
+        h4 {
+            font-size: 1.25rem;
+        }
+    
+        input:focus {
+            background-color: #10b85b;
+            cursor: pointer;
+            font-size: 1.05rem;
+        }
+    
+        footer {
+            background-color: #D9DFE8;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .footer-link {
+            list-style: none;
+            margin-right: 15px;
+        }
+    
+        .footer-nav {
+            display: flex;
+        }
+    
+        .icon-footer {
+            margin-right: 5px;
+        }
+    
+        li:hover {
+            cursor: pointer;
+        }
+}
+
+@media (max-width:1015px) {
+    header {
+            background-color: green;
+            color: #EDF2F4;
+            position: fixed;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            width: 100%;
+        }
+    }
