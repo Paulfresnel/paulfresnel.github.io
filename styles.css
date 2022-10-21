@@ -143,6 +143,15 @@ h2{
 .bg1{
     background-image: url(./images/sum\ game.jpg);
 }
+.bg2 {
+    background-image: url(./images/website.png);
+   }
+   .bg3 {
+    background-image: url(./images/website2.png);
+    background-size: 200%;
+    background-position: top;
+    border:1px black solid
+   }
 
 h3{
     background-color: #D9DFE8;
@@ -368,6 +377,15 @@ li:hover {
         .bg1 {
             background-image: url(./images/sum\ game.jpg);
         }
+        .bg2 {
+            background-image: url(./images/website.png);
+           }
+           .bg3 {
+            background-image: url(./images/website2.png);
+            background-size: 200%;
+            background-position: top;
+            border:1px black solid
+           }
     
         h3 {
             background-color: #D9DFE8;
@@ -560,7 +578,7 @@ li:hover {
                width: 220px;
                justify-content: space-evenly;
                border: 2.5px #2B2D42 solid;
-               border-radius: 55px;
+               border-radius: 45px;
                padding: 15px;
                height: 350px;
                margin-bottom: 15px;
@@ -595,6 +613,12 @@ li:hover {
 
            .bg2 {
             background-image: url(./images/website.png);
+           }
+           .bg3 {
+            background-image: url(./images/website2.png);
+            background-size: 200%;
+            background-position: top;
+            border:1px black solid
            }
        
            h3 {
