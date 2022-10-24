@@ -10,6 +10,7 @@ header {
     position:fixed;
     padding-bottom: 5px;
     padding-top: 5px;
+    background-image: url(./images/wave.svg);
 }
 
 .flex {
@@ -145,13 +146,17 @@ h2{
 }
 .bg2 {
     background-image: url(./images/website.png);
-   }
-   .bg3 {
+}
+.bg3 {
     background-image: url(./images/website2.png);
     background-size: 200%;
     background-position: top;
     border:1px black solid
-   }
+}
+
+.bg4 {
+    background-image: url(./images/battle-clash.png);
+}
 
 h3{
     background-color: #D9DFE8;
@@ -220,6 +225,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .footer-link {
@@ -248,6 +254,9 @@ li:hover {
             padding-bottom: 5px;
             padding-top: 5px;
             width:100%;
+        }
+        .bg4 {
+            background-image: url(./images/battle-clash.png);
         }
 
     .flex {
@@ -481,6 +490,9 @@ li:hover {
             position:relative;
             padding-bottom: 5px;
             padding-top: 5px;
+        }
+        .bg4 {
+            background-image: url(./images/battle-clash.png);
         }
         .flex {
             display: flex;
