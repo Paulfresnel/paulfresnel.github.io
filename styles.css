@@ -5,14 +5,17 @@
 @media (min-width:1420px){
 header {
     background-color:#55286F;
-    color: #EDF2F4;
     width: 100%;
+    color: #EDF2F4;
     position:fixed;
     padding-bottom: 5px;
     padding-top: 5px;
     background-image: url(./images/wave.svg);
 }
 
+body{
+    margin:0;
+}
 .flex {
     display: flex;
     justify-content: space-between;
