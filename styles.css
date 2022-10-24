@@ -156,6 +156,7 @@ h2{
 
 .bg4 {
     background-image: url(./images/battle-clash.png);
+    border: 1px black solid;
 }
 
 h3{
@@ -244,6 +245,11 @@ footer{
 li:hover {
     cursor: pointer;
 }
+.bg5{
+    background-image: url(./images/calculator.png);
+    background-position: top;
+    border: 1px black solid;
+   }
 }
 
 @media (max-width:1420px){
@@ -257,6 +263,7 @@ li:hover {
         }
         .bg4 {
             background-image: url(./images/battle-clash.png);
+            border: 1px black solid;
         }
 
     .flex {
@@ -481,6 +488,10 @@ li:hover {
         li:hover {
             cursor: pointer;
         }
+        .bg5{
+            background-image: url(./images/calculator.png);
+            border: 1px black solid;
+           }
 }
 
 @media (max-width:1015px) {
@@ -493,6 +504,7 @@ li:hover {
         }
         .bg4 {
             background-image: url(./images/battle-clash.png);
+            border: 1px black solid;
         }
         .flex {
             display: flex;
@@ -717,6 +729,10 @@ li:hover {
        
            li:hover {
                cursor: pointer;
+           }
+           .bg5{
+            background-image: url(./images/calculator.png);
+            border: 1px black solid;
            }
    }
    
