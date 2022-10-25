@@ -166,6 +166,13 @@ h2{
     background-image: url(./images/battle-clash.png);
     border: 1px black solid;
 }
+.bg6{
+    background-image: url(./images/to-do-list-website.png);
+    border: 1px black solid;
+    background-repeat: no-repeat;
+    background-size: 170%;
+}
+
 
 h3{
     background-color: #D9DFE8;
@@ -271,6 +278,7 @@ li:hover {
 }
 
 @media (max-width:1366px){
+    
     header {
             background-color: blue;
             color: #EDF2F4;
@@ -420,7 +428,12 @@ li:hover {
             background-position: top;
             border:1px black solid
            }
-    
+           
+           .bg6{
+            background-image: url(./images/to-do-list-website.png);
+            border: 1px black solid;
+            background-size: 180%;
+        }
         h3 {
             background-color: #D9DFE8;
             width: 100%;
@@ -770,5 +783,11 @@ li:hover {
             font-size: 12px;
             margin-right: 15px;
            }
+        
+           .bg6{
+            background-image: url(./images/to-do-list-website.png);
+            border: 1px black solid;
+            background-repeat: no-repeat;
+            background-size: 180%;
         }
-   
+    }
