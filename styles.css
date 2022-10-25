@@ -700,7 +700,6 @@ li:hover {
                background-color: #8D99AE;
                padding-top: 15px;
                height: 70px;
-               padding-left: 5vw;
                display: flex;
                justify-content: left;
                align-items: center;
@@ -709,28 +708,27 @@ li:hover {
            }
        
            .form label {
-               margin-right: 1vw;
-               font-size: 1.3rem;
+               
+               font-size: 1rem;
                color: #540D6E;
                font-weight: bold;
            }
        
            .form input {
                height: 25px;
-               margin-right: 3vw;
+               width:100px;
        
            }
        
            .form button {
                background-color: #E00034;
-               padding: 11px 35px 11px 35px;
-               font-size: 1.5rem;
+               padding: 11px 15px 11px 15px;
+               font-size: 1.2rem;
                color: white;
                font-weight: bold;
-               margin-left: 1vw;
+
                border-radius: 35px;
                border: 2px #D9DFE8 solid;
-               margin-right: 5vw;
            }
        
            .form button:hover {
