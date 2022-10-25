@@ -146,6 +146,7 @@ h2{
     border-radius: 25px;
     background-repeat: no-repeat;
     background-size: 100%;
+    border: 1px black solid;
 }
 
 .bg1{
