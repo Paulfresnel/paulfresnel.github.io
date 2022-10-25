@@ -2,15 +2,19 @@
     margin:0;
     padding:0;
 }
-@media (min-width:1420px){
+@media (min-width:1367px){
 header {
+    
     background-color:#55286F;
     width: 100%;
     color: #EDF2F4;
     position:fixed;
+    left: 0;
+    right:0;
     padding-bottom: 5px;
     padding-top: 5px;
     background-image: url(./images/wave.svg);
+    box-sizing: border-box;
 }
 
 body{
@@ -173,6 +177,9 @@ h3{
 
 .form{
     background-color: #8D99AE;
+    left: 0;
+    right:0;
+    box-sizing: border-box;
     padding-top: 15px;
     height:70px;
     padding-left: 10vw;
@@ -253,9 +260,16 @@ li:hover {
     background-position: top;
     border: 1px black solid;
    }
+   #copyright{
+    font-size: 12px;
+   }
+   #text-copyright{
+    font-size: 12px;
+    margin-right: 15px;
+   }
 }
 
-@media (max-width:1420px){
+@media (max-width:1366px){
     header {
             background-color: blue;
             color: #EDF2F4;
@@ -495,6 +509,13 @@ li:hover {
             background-image: url(./images/calculator.png);
             border: 1px black solid;
            }
+           #copyright{
+            font-size: 12px;
+           }
+           #text-copyright{
+            font-size: 12px;
+            margin-right: 15px;
+           }
 }
 
 @media (max-width:1015px) {
@@ -581,7 +602,7 @@ li:hover {
            }
        
            .project-link {
-               padding: 10px 25px 10px 25px;
+               padding: 10px 15px 10px 15px;
                background-color: #E00034;
                border-radius: 25px;
                color: #EDF2F4;
@@ -601,7 +622,7 @@ li:hover {
            .card {
                display: flex;
                flex-direction: column;
-               align-items: left;
+               align-items: center;
                width: 220px;
                justify-content: space-evenly;
                border: 2.5px #2B2D42 solid;
@@ -625,10 +646,12 @@ li:hover {
            }
        
            .background-image {
+            padding-left: 50px;
+            padding-right: 50px;
                display: flex;
                justify-content: center;
+               width:125px;
                align-items: flex-end;
-               height: 150px;
                border-radius: 25px;
                background-repeat: no-repeat;
                background-size: 100%;
@@ -636,11 +659,13 @@ li:hover {
        
            .bg1 {
                background-image: url(./images/sum\ game.jpg);
-           }
+                border:1px black solid;
+            }
 
            .bg2 {
             background-image: url(./images/website.png);
-           }
+                border:1px black solid;
+        }
            .bg3 {
             background-image: url(./images/website2.png);
             background-size: 200%;
@@ -737,5 +762,12 @@ li:hover {
             background-image: url(./images/calculator.png);
             border: 1px black solid;
            }
-   }
+           #copyright{
+            font-size: 12px;
+           }
+           #text-copyright{
+            font-size: 12px;
+            margin-right: 15px;
+           }
+        }
    

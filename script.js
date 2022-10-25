@@ -3,7 +3,10 @@ let header = document.getElementById('header');
 let main = document.getElementById('main');
 
 window.addEventListener('load',()=>{
-    header.style.width = main.style.width;
+    let copyrightDate = document.querySelector('#copyright');
+    copyrightDate.innerHTML = new Date().getFullYear()
 })
 
 
+let copyrightDate = document.querySelector('#copyright');
+copyrightDate.innerHTML = new Date().getFullYear();
