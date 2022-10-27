@@ -172,6 +172,10 @@ h2{
     background-repeat: no-repeat;
     background-size: 170%;
 }
+.bg7{
+    background-image: url(./images/sleever-frontpage.png);
+    background-size: 120%;
+}
 
 
 h3{
