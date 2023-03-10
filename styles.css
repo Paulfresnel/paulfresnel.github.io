@@ -19,6 +19,11 @@ header {
 
 body{
     margin:0;
+    scroll-behavior: smooth;
+}
+
+.nav-links  a{
+    color: white;
 }
 .flex {
     display: flex;
@@ -271,6 +276,11 @@ li:hover {
     background-image: url(./images/calculator.png);
     background-position: top;
     border: 1px black solid;
+   }
+   .bg8 {
+       background-image: url(./images/skillroad_project.png);
+       background-position: top;
+       border: 1px black solid;
    }
    #copyright{
     font-size: 12px;
@@ -527,6 +537,11 @@ li:hover {
             background-image: url(./images/calculator.png);
             border: 1px black solid;
            }
+                   .bg8 {
+                       background-image: url(./images/skillroad_project.png);
+                       border: 1px black solid;
+                      
+                   }
            #copyright{
             font-size: 12px;
            }
@@ -538,11 +553,12 @@ li:hover {
 
 @media (max-width:1015px) {
     header {
-            background-color: green;
+            background-color: #540D6E;
             color: #EDF2F4;
             position:relative;
             padding-bottom: 5px;
             padding-top: 5px;
+            margin-right:35px
         }
         .bg4 {
             background-image: url(./images/battle-clash.png);
@@ -734,6 +750,9 @@ li:hover {
                border-radius: 35px;
                border: 2px #D9DFE8 solid;
            }
+           .nav-links a{
+            color: #D9DFE8;
+           }
        
            .form button:hover {
                background-color: #EDF2F4;
@@ -752,7 +771,7 @@ li:hover {
            }
        
            footer {
-               background-color: #D9DFE8;
+               background-color: #8D99AE;
                display: flex;
                justify-content: space-between;
                align-items: center;
@@ -781,10 +800,17 @@ li:hover {
            #copyright{
             font-size: 12px;
            }
+          
            #text-copyright{
             font-size: 12px;
             margin-right: 15px;
            }
+                   .bg7 {
+                       background-image: url(./images/sleever-frontpage.png);
+                       border: 1px black solid;
+                       background-repeat: no-repeat;
+                       background-size: 180%;
+                   }
         
            .bg6{
             background-image: url(./images/to-do-list-website.png);
@@ -792,4 +818,10 @@ li:hover {
             background-repeat: no-repeat;
             background-size: 180%;
         }
+                .bg8 {
+                    background-image: url(./images/skillroad_project.png);
+                    border: 1px black solid;
+                    background-repeat: no-repeat;
+                    background-size: 180%;
     }
+}
