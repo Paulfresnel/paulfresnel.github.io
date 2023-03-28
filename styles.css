@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    font-family: "Montserrat" sans-serif;
 }
 
 .unfinished{
@@ -609,12 +610,21 @@ li:hover {
 
 @media (max-width:1015px) {
     header {
-            background-color: #540D6E;
+            background-color: #1717cf;
             color: #EDF2F4;
             position:relative;
             padding-bottom: 5px;
             padding-top: 5px;
-            margin-right:35px
+            margin-right:35px;
+            height: 200px;
+        }
+
+        header a{
+            font-size: 2.5rem;
+            margin-right: 35px;
+        }
+        h3{
+            text-align: center;
         }
                 i {
                     margin: 15px 0px 25px 0px;
@@ -626,7 +636,7 @@ li:hover {
             align-items: center;
        }
        .logo {
-           width: 55px;
+           width: 105px;
            margin-left: 3vw;
            margin-right: 10px;;
        }
@@ -644,7 +654,7 @@ li:hover {
        
            h1 {
                margin-right:3vw;
-               font-size: 20px;
+               font-size: 3rem;
            }
        
            .main>button {
@@ -658,23 +668,24 @@ li:hover {
                flex-direction: column;
                justify-content: center;
                align-items: center;
-               height: 250px;
+               height: 500px;
                background-image: url(./images/dynamic-wang-irn9H9-Kfq4-unsplash.jpg);
                background-position: center;
                background-repeat: no-repeat;
-               background-size: 100%;
+               background-size: cover;
                color: #EDF2F4
            }
        
            h2 {
-               font-size: 1.2rem;
+               font-size: 3rem;
                margin-bottom: 0;
                background-color: #D9DFE8;
-               border: 2px solid #EF233C;
-               padding: 15px 35px 15px 35px;
+               border: 2px solid #1717cf;
+               padding: 15px 20px 15px 20px;
                margin-bottom: 50px;
                border-radius: 50px;
-               color: #540D6E
+               color: #1717cf;
+               text-align: center;
            }
        
            .main>p {
@@ -690,17 +701,25 @@ li:hover {
                border-left: 1px black solid;
                border-right: 1px black solid;
            }
+
+           #projects{
+            font-size: 3rem;
+            padding-bottom: 25px;
+            border-bottom: 2px blueviolet solid;
+            text-align: center;
+           }
        
            .project-link {
-               padding: 10px 15px 10px 15px;
-               background-color: #E00034;
+               padding: 10px 20px 10px 20px;
+               background-color: coral;
                border-radius: 25px;
-               color: #EDF2F4;
+               color: #1717cf;
                margin-bottom: 15px;
-               font-size: 1.1rem;
+               font-size: 3rem;
                border: #2B2D42 2px solid;
                text-decoration: none;
                font-weight: bold;
+               text-align: center;
        
            }
        
@@ -713,20 +732,44 @@ li:hover {
                display: flex;
                flex-direction: column;
                align-items: center;
-               width: 220px;
+               width: 60vw;
                justify-content: space-evenly;
-               border: 2.5px #2B2D42 solid;
+               border: 2.5px #1717cf solid;
                border-radius: 45px;
                padding: 15px;
-               min-height: 350px;
+               min-height: 650px;
                height: auto;
-               margin-bottom: 15px;
                transition: transform 0.5s;
                margin-right: 15px;
                margin-left: 15px;
                padding-left: 35px;
                padding-right: 35px;
-               margin-bottom: 25px;
+               margin-bottom: 55px;
+               margin-top: 55px;
+           }
+
+           .card > h4{
+            font-size: 3rem;
+            text-align: center;
+            color: #1717cf;
+           }
+           .card i {
+            color: #1717cf;
+            font-size: 2rem;
+            margin-bottom: 45px;
+            margin-top: 25px;
+           }
+           .card > i {
+            font-size: 2rem;
+           }
+           .card > p {
+            font-size: 2.5rem;
+            text-align: center;
+            margin: 20px 40px 20px 40px;
+           }
+           .card > ul{
+            font-size: 2.5rem;
+            margin: 20px 40px 20px 40px;
            }
        
        
@@ -739,14 +782,16 @@ li:hover {
            .background-image {
             padding-left: 50px;
             padding-right: 50px;
+            padding-top: 20px;
                display: flex;
                justify-content: center;
-               width:125px;
+               width:35vw;
+               height: 300px;
                align-items: flex-end;
                border-radius: 25px;
                background-repeat: no-repeat;
                background-size: 100%;
-               margin: 10px 0px 15px 0px;
+               margin: 20px 0px 15px 0px;
            }
        
            
@@ -817,7 +862,9 @@ li:hover {
        
            footer {
                background-color: #8D99AE;
+               color: #1717cf;
                display: flex;
+               font-size: 2rem;
                justify-content: space-between;
                align-items: center;
            }
@@ -845,9 +892,11 @@ li:hover {
            
            #copyright{
             font-size: 12px;
+            display: none;
            }
           
            #text-copyright{
+            display: none;
             font-size: 12px;
             margin-right: 15px;
            }
@@ -855,26 +904,70 @@ li:hover {
            .margin-top{
             margin-top: 25px;
            }
+
+                   .main h2 {
+                       overflow: hidden;
+                       /* Ensures the content is not revealed until the animation */
+                       border-right: .15em solid orange;
+                       /* The typwriter cursor */
+                       white-space: nowrap;
+                       /* Keeps the content on a single line */
+                       margin: 0 auto;
+                       /* Gives that scrolling effect as the typing happens */
+                       letter-spacing: .15em;
+                       /* Adjust as needed */
+                       animation:
+                           typing 3.5s steps(40, end),
+                           blink-caret .75s step-end infinite;
+                   }
+        
+                   /* The typing effect */
+                   @keyframes typing {
+                       from {
+                           width: 0
+                       }
+        
+                       to {
+                           width: 70%
+                       }
+                   }
+        
+                   /* The typewriter cursor effect */
+                   @keyframes blink-caret {
+        
+                       from,
+                       to {
+                           border-color: transparent
+                       }
+        
+                       50% {
+                           border-color: orange;
+                       }
+                   }
+           
           
 
            .bg1 {
                background-image: url(./images/sum\ game.jpg);
                 border:1px black solid;
+                background-size: cover;
             }
 
            .bg2 {
             background-image: url(./images/website.png);
-                border:1px black solid;
+            border:1px black solid;
+            background-size: cover;
         }
            .bg3 {
             background-image: url(./images/website2.png);
-            background-size: 200%;
+            background-size: cover;
             background-position: top;
             border:1px black solid
            }
            .bg4 {
             background-image: url(./images/battle-clash.png);
             border: 1px black solid;
+            background-size: cover;
         }
 
            .bg5{
@@ -886,25 +979,25 @@ li:hover {
             background-image: url(./images/to-do-list-website.png);
             border: 1px black solid;
             background-repeat: no-repeat;
-            background-size: 180%;
+            background-size: cover;
         }
         .bg7 {
             background-image: url(./images/sleever-frontpage.png);
             border: 1px black solid;
             background-repeat: no-repeat;
-            background-size: 180%;
+            background-size: cover;
            }
         .bg8 {
             background-image: url(./images/skillroad_project.png);
             border: 1px black solid;
             background-repeat: no-repeat;
-            background-size: 180%;
+            background-size: cover;
     }
         .bg9 {
             background-image: url(./images/reviewGPT.png);
             border: 1px black solid;
             background-repeat: no-repeat;
             background-position: top;
-            background-size: 180%;
-        }
+            background-size: cover;
+    }
 }
