@@ -257,49 +257,59 @@ li:hover {
 }
 .bg1 {
     background-image: url(./images/sum\ game.jpg);
+    background-size: cover;
+    border: 1px black solid;
 }
 
 .bg2 {
     background-image: url(./images/website.png);
+    background-size: cover;
+        border: 1px black solid;
 }
 
 .bg3 {
     background-image: url(./images/website2.png);
-    background-size: 200%;
-    background-position: top;
-    border: 1px black solid
+    background-size: cover;
+        border: 1px black solid;
 }
 
 .bg4 {
     background-image: url(./images/battle-clash.png);
-    border: 1px black solid;
+    background-size: cover;
+        border: 1px black solid;
 }
 
 
 .bg5{
     background-image: url(./images/calculator.png);
-    background-position: top;
-    border: 1px black solid;
+    background-size: cover;
+        border: 1px black solid;
    }
 
    .bg6 {
        background-image: url(./images/to-do-list-website.png);
-       border: 1px black solid;
-       background-repeat: no-repeat;
-       background-size: 170%;
+    background-size: cover;
+        border: 1px black solid;
    }
 
    .bg7 {
        background-image: url(./images/sleever-frontpage.png);
-       background-size: 120%;
+    background-size: cover;
+        border: 1px black solid;
    }
    .bg8 {
        background-image: url(./images/skillroad_project.png);
-       background-position: top;
-       border: 1px black solid;
+       background-size: cover;
+        border: 1px black solid;
    }
    .bg9 {
        background-image: url(./images/reviewGPT.png);
+       background-size: cover;
+       background-size: center;
+       border: 1px black solid;
+   }
+   .bg10 {
+       background-image: url(./images/football-worldcujp-app.png);
        background-size: cover;
        background-size: center;
        border: 1px black solid;
@@ -560,45 +570,57 @@ li:hover {
         }
          .bg1 {
              background-image: url(./images/sum\ game.jpg);
+            border: 1px black solid;
+            background-size: cover;
          }  
          .bg2 {
              background-image: url(./images/website.png);
+            border: 1px black solid;
+            background-size: cover;
          }  
          .bg3 {
              background-image: url(./images/website2.png);
-             background-size: 200%;
-             background-position: top;
+            background-size: cover;
              border: 1px black solid
          }  
          .bg4 {
              background-image: url(./images/battle-clash.png);
              border: 1px black solid;
+            background-size: cover;
          }
 
          .bg5 {
              background-image: url(./images/calculator.png);
              border: 1px black solid;
+            background-size: cover;
          }
          .bg6 {
              background-image: url(./images/to-do-list-website.png);
              border: 1px black solid;
-             background-size: 180%;
+             background-size: cover;
          }
           .bg7 {
               background-image: url(./images/sleever-frontpage.png);
               border: 1px black solid;
-              background-size: 180%;
+              background-size: cover;
           }
          
         .bg8 {
             background-image: url(./images/skillroad_project.png);
             border: 1px black solid;
+            background-size: cover;
            
         }
           .bg9 {
               background-image: url(./images/reviewGPT.png);
               border: 1px black solid;  
+            background-size: cover;
           }
+         .bg10 {
+             background-image: url(./images/football-worldcujp-app.png);
+             border: 1px black solid;
+             background-size: cover;
+         }
            #copyright{
             font-size: 12px;
            }
@@ -973,6 +995,7 @@ li:hover {
            .bg5{
             background-image: url(./images/calculator.png);
             border: 1px black solid;
+            background-size: cover;
            }      
         
            .bg6{
@@ -1000,4 +1023,12 @@ li:hover {
             background-position: top;
             background-size: cover;
     }
+        .bg10 {
+            background-image: url(./images/football-worldcujp-app.png);
+            border: 1px black solid;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
 }
