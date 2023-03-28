@@ -2,6 +2,11 @@
     margin:0;
     padding:0;
 }
+
+.unfinished{
+    margin-bottom: 10px;
+}
+
 @media (min-width:1367px){
 header {
     
@@ -126,7 +131,8 @@ h2{
     border:2.5px #2B2D42 solid;
     border-radius: 55px;
     padding:15px;
-    height: 350px;
+    height: auto;
+    min-height: 350px;
     margin-bottom: 15px;
     transition: transform 0.5s;
     margin-right: 15px;
@@ -153,35 +159,6 @@ h2{
     background-size: 100%;
     border: 1px black solid;
 }
-
-.bg1{
-    background-image: url(./images/sum\ game.jpg);
-}
-.bg2 {
-    background-image: url(./images/website.png);
-}
-.bg3 {
-    background-image: url(./images/website2.png);
-    background-size: 200%;
-    background-position: top;
-    border:1px black solid
-}
-
-.bg4 {
-    background-image: url(./images/battle-clash.png);
-    border: 1px black solid;
-}
-.bg6{
-    background-image: url(./images/to-do-list-website.png);
-    border: 1px black solid;
-    background-repeat: no-repeat;
-    background-size: 170%;
-}
-.bg7{
-    background-image: url(./images/sleever-frontpage.png);
-    background-size: 120%;
-}
-
 
 h3{
     background-color: #D9DFE8;
@@ -241,6 +218,7 @@ h3{
 
 h4{
     font-size: 1.25rem;
+    margin-bottom: 15px;
 }
 
 input:focus{
@@ -248,12 +226,12 @@ input:focus{
     cursor: pointer;
     font-size: 1.05rem;
 }
+
 footer{
-    background-color: #D9DFE8;
+    background-color: #8D99AE;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .footer-link {
@@ -268,18 +246,61 @@ footer{
 .icon-footer{
     margin-right: 5px;
 }
+ul{
+    margin: 8px 3px 8px 3px;
+}
+
 
 li:hover {
     cursor: pointer;
 }
+.bg1 {
+    background-image: url(./images/sum\ game.jpg);
+}
+
+.bg2 {
+    background-image: url(./images/website.png);
+}
+
+.bg3 {
+    background-image: url(./images/website2.png);
+    background-size: 200%;
+    background-position: top;
+    border: 1px black solid
+}
+
+.bg4 {
+    background-image: url(./images/battle-clash.png);
+    border: 1px black solid;
+}
+
+
 .bg5{
     background-image: url(./images/calculator.png);
     background-position: top;
     border: 1px black solid;
    }
+
+   .bg6 {
+       background-image: url(./images/to-do-list-website.png);
+       border: 1px black solid;
+       background-repeat: no-repeat;
+       background-size: 170%;
+   }
+
+   .bg7 {
+       background-image: url(./images/sleever-frontpage.png);
+       background-size: 120%;
+   }
    .bg8 {
        background-image: url(./images/skillroad_project.png);
        background-position: top;
+       border: 1px black solid;
+   }
+   .bg9 {
+       background-image: url(./images/reviewGPT.png);
+       background-size: cover;
+       background-size: center;
        border: 1px black solid;
    }
    #copyright{
@@ -288,6 +309,12 @@ li:hover {
    #text-copyright{
     font-size: 12px;
     margin-right: 15px;
+   }
+   i{
+    margin: 15px 0px 30px 0px;
+   }
+   .spaced{
+    margin: 8px;
    }
 }
 
@@ -301,10 +328,14 @@ li:hover {
             padding-top: 5px;
             width:100%;
         }
-        .bg4 {
-            background-image: url(./images/battle-clash.png);
-            border: 1px black solid;
-        }
+    i {
+         margin: 15px 0px 25px 0px;
+       }
+
+   .spaced {
+       margin: 8px;
+   }
+        
 
     .flex {
          display: flex;
@@ -403,7 +434,8 @@ li:hover {
             border: 2.5px #2B2D42 solid;
             border-radius: 55px;
             padding: 15px;
-            height: 350px;
+            min-height: 350px;
+            height: auto;
             margin-bottom: 15px;
             transition: transform 0.5s;
             margin-right: 15px;
@@ -430,24 +462,7 @@ li:hover {
             background-size: 100%;
         }
     
-        .bg1 {
-            background-image: url(./images/sum\ game.jpg);
-        }
-        .bg2 {
-            background-image: url(./images/website.png);
-           }
-           .bg3 {
-            background-image: url(./images/website2.png);
-            background-size: 200%;
-            background-position: top;
-            border:1px black solid
-           }
-           
-           .bg6{
-            background-image: url(./images/to-do-list-website.png);
-            border: 1px black solid;
-            background-size: 180%;
-        }
+        
         h3 {
             background-color: #D9DFE8;
             width: 100%;
@@ -502,6 +517,7 @@ li:hover {
     
         h4 {
             font-size: 1.25rem;
+            margin-bottom: 15px;
         }
     
         input:focus {
@@ -511,7 +527,7 @@ li:hover {
         }
     
         footer {
-            background-color: #D9DFE8;
+            background-color: #8D99AE;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -529,19 +545,59 @@ li:hover {
         .icon-footer {
             margin-right: 5px;
         }
+
+        .spaced{
+           margin: 8px
+        }
+
+        ul{
+            margin-bottom: 15px;
+        }
     
         li:hover {
             cursor: pointer;
         }
-        .bg5{
-            background-image: url(./images/calculator.png);
+         .bg1 {
+             background-image: url(./images/sum\ game.jpg);
+         }  
+         .bg2 {
+             background-image: url(./images/website.png);
+         }  
+         .bg3 {
+             background-image: url(./images/website2.png);
+             background-size: 200%;
+             background-position: top;
+             border: 1px black solid
+         }  
+         .bg4 {
+             background-image: url(./images/battle-clash.png);
+             border: 1px black solid;
+         }
+
+         .bg5 {
+             background-image: url(./images/calculator.png);
+             border: 1px black solid;
+         }
+         .bg6 {
+             background-image: url(./images/to-do-list-website.png);
+             border: 1px black solid;
+             background-size: 180%;
+         }
+          .bg7 {
+              background-image: url(./images/sleever-frontpage.png);
+              border: 1px black solid;
+              background-size: 180%;
+          }
+         
+        .bg8 {
+            background-image: url(./images/skillroad_project.png);
             border: 1px black solid;
-           }
-                   .bg8 {
-                       background-image: url(./images/skillroad_project.png);
-                       border: 1px black solid;
-                      
-                   }
+           
+        }
+          .bg9 {
+              background-image: url(./images/reviewGPT.png);
+              border: 1px black solid;  
+          }
            #copyright{
             font-size: 12px;
            }
@@ -560,10 +616,10 @@ li:hover {
             padding-top: 5px;
             margin-right:35px
         }
-        .bg4 {
-            background-image: url(./images/battle-clash.png);
-            border: 1px black solid;
-        }
+                i {
+                    margin: 15px 0px 25px 0px;
+                }
+        
         .flex {
             display: flex;
             justify-content: space-between;
@@ -662,7 +718,8 @@ li:hover {
                border: 2.5px #2B2D42 solid;
                border-radius: 45px;
                padding: 15px;
-               height: 350px;
+               min-height: 350px;
+               height: auto;
                margin-bottom: 15px;
                transition: transform 0.5s;
                margin-right: 15px;
@@ -689,23 +746,10 @@ li:hover {
                border-radius: 25px;
                background-repeat: no-repeat;
                background-size: 100%;
+               margin: 10px 0px 15px 0px;
            }
        
-           .bg1 {
-               background-image: url(./images/sum\ game.jpg);
-                border:1px black solid;
-            }
-
-           .bg2 {
-            background-image: url(./images/website.png);
-                border:1px black solid;
-        }
-           .bg3 {
-            background-image: url(./images/website2.png);
-            background-size: 200%;
-            background-position: top;
-            border:1px black solid
-           }
+           
        
            h3 {
                background-color: #D9DFE8;
@@ -762,6 +806,7 @@ li:hover {
        
            h4 {
                font-size: 1.25rem;
+               margin-bottom: 15px;
            }
        
            input:focus {
@@ -789,14 +834,15 @@ li:hover {
            .icon-footer {
                margin-right: 5px;
            }
+
+           .spaced{
+            margin: 8px;
+           }
        
            li:hover {
                cursor: pointer;
            }
-           .bg5{
-            background-image: url(./images/calculator.png);
-            border: 1px black solid;
-           }
+           
            #copyright{
             font-size: 12px;
            }
@@ -805,12 +851,36 @@ li:hover {
             font-size: 12px;
             margin-right: 15px;
            }
-                   .bg7 {
-                       background-image: url(./images/sleever-frontpage.png);
-                       border: 1px black solid;
-                       background-repeat: no-repeat;
-                       background-size: 180%;
-                   }
+
+           .margin-top{
+            margin-top: 25px;
+           }
+          
+
+           .bg1 {
+               background-image: url(./images/sum\ game.jpg);
+                border:1px black solid;
+            }
+
+           .bg2 {
+            background-image: url(./images/website.png);
+                border:1px black solid;
+        }
+           .bg3 {
+            background-image: url(./images/website2.png);
+            background-size: 200%;
+            background-position: top;
+            border:1px black solid
+           }
+           .bg4 {
+            background-image: url(./images/battle-clash.png);
+            border: 1px black solid;
+        }
+
+           .bg5{
+            background-image: url(./images/calculator.png);
+            border: 1px black solid;
+           }      
         
            .bg6{
             background-image: url(./images/to-do-list-website.png);
@@ -818,10 +888,23 @@ li:hover {
             background-repeat: no-repeat;
             background-size: 180%;
         }
-                .bg8 {
-                    background-image: url(./images/skillroad_project.png);
-                    border: 1px black solid;
-                    background-repeat: no-repeat;
-                    background-size: 180%;
+        .bg7 {
+            background-image: url(./images/sleever-frontpage.png);
+            border: 1px black solid;
+            background-repeat: no-repeat;
+            background-size: 180%;
+           }
+        .bg8 {
+            background-image: url(./images/skillroad_project.png);
+            border: 1px black solid;
+            background-repeat: no-repeat;
+            background-size: 180%;
     }
+        .bg9 {
+            background-image: url(./images/reviewGPT.png);
+            border: 1px black solid;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: 180%;
+        }
 }
