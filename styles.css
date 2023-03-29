@@ -60,6 +60,7 @@ header{
 
 .list{
     list-style-type: style type circle;
+    font-size: 2vw;
 }
 
 .background-nuanced{
@@ -80,19 +81,25 @@ header{
 .margined-sides{
     padding: 5vw 10vw 5vw 15vw;
 }
+.margined-sides-less {
+    padding: 2vw 5vw 2vw 5vw;
+}
 
 .textual-paragraph{
     font-size: 3rem;
 }
 
 .space-left-small{
+    margin-top: 1vw;
     margin-left: 2vw;
 }
 .space-left{
+    margin-top: 1vw;
     margin-left: 4vw;
 }
 
 .space-left-plus{
+    margin-top: 1vw;
     margin-left: 8vw;
 }
 
@@ -314,11 +321,7 @@ h4{
     margin-bottom: 15px;
 }
 
-input:focus{
-    background-color: #10b85b;
-    cursor: pointer;
-    font-size: 1.05rem;
-}
+
 
 footer{
     background-color: #1717cf;
@@ -387,6 +390,10 @@ li:hover {
     50% {
         border-color: coral;
     }
+}
+
+.wrapper{
+    height: auto;
 }
 
 
@@ -493,7 +500,7 @@ li:hover {
             }
     
             to {
-                width: 82%
+                width: 85%
             }
         }
     
@@ -520,6 +527,10 @@ li:hover {
             padding-top: 5px;
             width:100%;
         }
+        header a{
+            text-decoration: none;
+            color: #D9DFE8;
+        }
 
         
         .portrait {
@@ -531,6 +542,8 @@ li:hover {
         .wrapper{
             place-items: top;
             width: 73vw;
+            height: 600px;
+            
         }
     i {
          margin: 15px 0px 25px 0px;
@@ -679,48 +692,7 @@ li:hover {
             padding-top: 25px;
         }
     
-        .form {
-            background-color: #8D99AE;
-            padding-top: 15px;
-            height: 70px;
-            padding-left: 5vw;
-            display: flex;
-            justify-content: left;
-            align-items: center;
-            padding-bottom: 15px;
-    
-        }
-    
-        .form label {
-            margin-right: 1vw;
-            font-size: 1.3rem;
-            color: #540D6E;
-            font-weight: bold;
-        }
-    
-        .form input {
-            height: 25px;
-            margin-right: 3vw;
-    
-        }
-    
-        .form button {
-            background-color: #E00034;
-            padding: 11px 35px 11px 35px;
-            font-size: 1.5rem;
-            color: white;
-            font-weight: bold;
-            margin-left: 1vw;
-            border-radius: 35px;
-            border: 2px #D9DFE8 solid;
-            margin-right: 5vw;
-        }
-    
-        .form button:hover {
-            background-color: #EDF2F4;
-            border: 2px #0C7C59 solid;
-            color: #2B2D42
-        }
+       
     
         h4 {
             font-size: 1.25rem;
@@ -838,7 +810,7 @@ li:hover {
         }
 
         header a{
-            font-size: 2.5rem;
+            font-size: 2.3vw;
             margin-right: 35px;
             text-decoration: none;
         }
@@ -855,7 +827,7 @@ li:hover {
             align-items: center;
        }
        .logo {
-           width: 105px;
+           width: 15vw;
            margin-left: 3vw;
            margin-right: 10px;;
        }
@@ -873,7 +845,7 @@ li:hover {
        
            h1 {
                margin-right:3vw;
-               font-size: 3rem;
+               font-size: 4.5vw;
            }
        
            .main>button {
@@ -896,7 +868,7 @@ li:hover {
            }
        
            h2 {
-               font-size: 3rem;
+               font-size: 4.4vw;
                margin-bottom: 0;
                background-color: #D9DFE8;
                border: 2px solid #1717cf;
@@ -1033,6 +1005,8 @@ li:hover {
            .nav-links a{
             color: #D9DFE8;
            }
+
+           
        
           
        
@@ -1048,13 +1022,13 @@ li:hover {
                color: #D9DFE8;
                display: flex;
                font-size: 2rem;
-               justify-content: space-between;
+               justify-content: space-around;
                align-items: center;
            }
        
            .footer-link {
                list-style: none;
-               margin-right: 15px;
+               margin-right: 2.5vw;
            }
        
            .footer-nav {
@@ -1062,7 +1036,7 @@ li:hover {
            }
        
            .icon-footer {
-               margin-right: 5px;
+               margin-right: 0.5vw;
            }
 
            .spaced{
@@ -1110,7 +1084,7 @@ li:hover {
                   width: 0
               }
               to {
-                  width: 80%
+                  width: 75%
               }
           }
           /* The typewriter cursor effect */
@@ -1122,6 +1096,14 @@ li:hover {
               50% {
                   border-color: coral;
               }
+          }
+
+          .portrait{
+            font-size: 1vw;
+          }
+          .wrapper {
+            height: 750px;
+              padding: 5vw;
           }
            
           
