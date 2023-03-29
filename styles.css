@@ -1,17 +1,101 @@
 *{
     margin:0;
     padding:0;
-    font-family: "Montserrat" sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    height: 55vh;
+    padding: 25px 25px 25px 25px;
+    background: #1717cf;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+    border-radius: 150px;
+}
+
+.no-margin{
+    margin-bottom: 0px;
+}
+
+.coral-bg{
+    background-color: coral;
+    color: #1717cf;
+    margin-top: 0;
+}
+
+.portrait {
+    font-size: 15px;
+    line-height: 10px;
+    text-align: justify;
+    font-weight: bold;
+    background: url(/images/PaulFresnel-image-linkedIn.jpeg) fixed center no-repeat;
+    background-size: contain;
+}
+
+/* This part is important for the feature itself */
+.portrait {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff2c;
+}
+
+.margin-bottom{
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .unfinished{
     margin-bottom: 10px;
 }
 
+.coral-color{
+    color: #1717cf;
+    font-size: 5rem;
+}
+
+.list{
+    list-style-type: style type circle;
+}
+
+.background-nuanced{
+    background-color: #1717cf;
+    color: aliceblue;
+}
+
+#about{
+    background-color: coral;
+}
+
+.hello{
+    color: coral;
+    font-weight:  500;
+    font-size: 8rem;
+}
+
+.margined-sides{
+    padding: 5vw 10vw 5vw 15vw;
+}
+
+.textual-paragraph{
+    font-size: 3rem;
+}
+
+.space-left-small{
+    margin-left: 2vw;
+}
+.space-left{
+    margin-left: 4vw;
+}
+
+.space-left-plus{
+    margin-left: 8vw;
+}
+
 @media (min-width:1367px){
 header {
     
-    background-color:#55286F;
+    background-color:#1717cf;
     width: 100%;
     color: #EDF2F4;
     position:fixed;
@@ -22,6 +106,8 @@ header {
     background-image: url(./images/wave.svg);
     box-sizing: border-box;
 }
+
+
 
 body{
     margin:0;
@@ -247,7 +333,7 @@ footer{
 .icon-footer{
     margin-right: 5px;
 }
-ul{
+.card > ul{
     margin: 8px 3px 8px 3px;
 }
 
@@ -255,6 +341,50 @@ ul{
 li:hover {
     cursor: pointer;
 }
+
+.main h2 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid coral;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 82%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: coral;
+    }
+}
+
+
+
+
 .bg1 {
     background-image: url(./images/sum\ game.jpg);
     background-size: cover;
@@ -329,7 +459,7 @@ li:hover {
    }
 }
 
-@media (max-width:1366px){
+@media  (min-width: 1016px) and (max-width:1366px){
     
     header {
             background-color: blue;
@@ -338,6 +468,18 @@ li:hover {
             padding-bottom: 5px;
             padding-top: 5px;
             width:100%;
+        }
+
+        .portrait{
+            height: 450px;
+        }
+        .portrait {
+            font-size: 0.6rem;
+            margin: 10px 30px 10px 30px;
+        }
+        .wrapper{
+            place-items: top;
+            width: 73vw;
         }
     i {
          margin: 15px 0px 25px 0px;
@@ -561,7 +703,7 @@ li:hover {
            margin: 8px
         }
 
-        ul{
+        .card > u {
             margin-bottom: 15px;
         }
     
@@ -637,7 +779,6 @@ li:hover {
             position:relative;
             padding-bottom: 5px;
             padding-top: 5px;
-            margin-right:35px;
             height: 200px;
         }
 
@@ -930,7 +1071,7 @@ li:hover {
                    .main h2 {
                        overflow: hidden;
                        /* Ensures the content is not revealed until the animation */
-                       border-right: .15em solid orange;
+                       border-right: .15em solid coral;
                        /* The typwriter cursor */
                        white-space: nowrap;
                        /* Keeps the content on a single line */
@@ -963,7 +1104,7 @@ li:hover {
                        }
         
                        50% {
-                           border-color: orange;
+                           border-color: coral;
                        }
                    }
            
