@@ -66,10 +66,17 @@ header{
 .background-nuanced{
     background-color: #1717cf;
     color: aliceblue;
+    
+}
+.diagonal-split-background {
+    color: #D9DFE8;
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(65deg, #1717cf 25%,  #013A6B 50%, #ffffff 50.3%, #013A6B 50.4%, #1717cf 75%, coral 90%, coral 100%);
 }
 
 #about{
     background-color: coral;
+    
 }
 
 .hello{
@@ -100,7 +107,7 @@ header{
 
 .space-left-plus{
     margin-top: 1vw;
-    margin-left: 8vw;
+    margin-left: 6vw;
 }
 
 @media (min-width:1367px){
