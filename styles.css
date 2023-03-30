@@ -477,7 +477,7 @@ li:hover {
 
     .main h2 {
             overflow: hidden;
-            font-size: 3.5rem;
+            font-size: 3rem;
             color: #1717cf;
             /* Ensures the content is not revealed until the animation */
             border-right: .15em solid coral;
