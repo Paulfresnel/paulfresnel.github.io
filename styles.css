@@ -465,6 +465,12 @@ li:hover {
        background-size: center;
        border: 1px black solid;
    }
+   .bg11 {
+       background-image: url(./images/ECDSA_Node_Cryptography.png);
+       background-size: cover;
+       background-size: center;
+       border: 1px black solid;
+   }
    #copyright{
     font-size: 12px;
    }
@@ -796,6 +802,11 @@ li:hover {
              border: 1px #1717cf solid;
              background-size: cover;
          }
+         .bg11 {
+             background-image: url(./images/ECDSA_Node_Cryptography.png);
+             border: 1px #1717cf solid;
+             background-size: cover;
+         }
            #copyright{
             font-size: 12px;
            }
@@ -948,7 +959,7 @@ li:hover {
            }
 
            .card > h4{
-            font-size: 3rem;
+            font-size: 2.25rem;
             text-align: center;
             color: #1717cf;
            }
@@ -962,12 +973,12 @@ li:hover {
             font-size: 2rem;
            }
            .card > p {
-            font-size: 2.5rem;
+            font-size: 1.5rem;
             text-align: center;
             margin: 20px 40px 20px 40px;
            }
            .card > ul{
-            font-size: 2.5rem;
+            font-size: 1.5rem;
             margin: 20px 40px 20px 40px;
            }
        
@@ -1174,6 +1185,14 @@ li:hover {
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+        }
+
+        .bg11 {
+            background-image: url(./images/ECDSA_Node_Cryptography.png);
+            border: 1px #1717cf solid;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
         }
 
 }
