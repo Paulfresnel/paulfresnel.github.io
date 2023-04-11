@@ -1,7 +1,8 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito',
+        sans-serif;
 }
 
 header{
@@ -76,6 +77,9 @@ header{
 
 #about{
     background-color: coral;
+    margin-bottom: 0;
+    font-family: 'Nunito',
+        sans-serif;
     
 }
 
@@ -88,6 +92,11 @@ header{
 .margined-sides{
     padding: 5vw 10vw 5vw 15vw;
 }
+
+.margined-sides > p{
+        font-family: 'Montserrat' sans-serif !important;
+}
+
 .margined-sides-less {
     padding: 2vw 5vw 2vw 5vw;
 }
@@ -108,6 +117,11 @@ header{
 .space-left-plus{
     margin-top: 1vw;
     margin-left: 6vw;
+}
+
+.card {
+    font-family: 'Nunito',
+        sans-serif;
 }
 
 @media (min-width:1367px){
@@ -400,7 +414,10 @@ li:hover {
 }
 
 .wrapper{
-    height: auto;
+    height: 30vw;
+}
+.portrait{
+    height: 350px;
 }
 
 
@@ -467,6 +484,12 @@ li:hover {
    }
    .bg11 {
        background-image: url(./images/ECDSA_Node_Cryptography.png);
+       background-size: cover;
+       background-size: center;
+       border: 1px black solid;
+   }
+   .bg12 {
+       background-image: url(./images/codeXDAO.png);
        background-size: cover;
        background-size: center;
        border: 1px black solid;
@@ -804,6 +827,11 @@ li:hover {
          }
          .bg11 {
              background-image: url(./images/ECDSA_Node_Cryptography.png);
+             border: 1px #1717cf solid;
+             background-size: cover;
+         }
+         .bg12 {
+             background-image: url(./images/codeXDAO.png);
              border: 1px #1717cf solid;
              background-size: cover;
          }
@@ -1193,6 +1221,13 @@ li:hover {
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
+        }
+        .bg12 {
+            background-image: url(./images/codeXDAO.png);
+            border: 1px #1717cf solid;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
         }
 
 }
