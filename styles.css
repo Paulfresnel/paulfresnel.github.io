@@ -9,6 +9,10 @@ header{
     border-bottom: 1px solid #D9DFE8;
 }
 
+.ul-list > li{
+    font-size: 1.5rem;
+}
+
 .wrapper {
     height: 55vh;
     padding: 25px 25px 25px 25px;
@@ -99,6 +103,14 @@ header{
 
 .margined-sides-less {
     padding: 2vw 5vw 2vw 5vw;
+}
+
+.margined-sides-no-top{
+    padding: 0vw 5vw 0vw 5vw;
+}
+
+.margined-sides-only-top {
+    padding: 2vw 5vw 0vw 5vw;
 }
 
 .textual-paragraph{
@@ -338,8 +350,8 @@ h3{
 }
 
 h4{
+    text-align: center;
     font-size: 1.25rem;
-    margin-bottom: 15px;
 }
 
 
@@ -490,6 +502,12 @@ li:hover {
    }
    .bg12 {
        background-image: url(./images/codeXDAO.png);
+       background-size: cover;
+       background-size: center;
+       border: 1px black solid;
+   }
+   .bg13 {
+       background-image: url(./images/codeXDAO_Xplorer.png);
        background-size: cover;
        background-size: center;
        border: 1px black solid;
@@ -834,6 +852,11 @@ li:hover {
              background-image: url(./images/codeXDAO.png);
              border: 1px #1717cf solid;
              background-size: cover;
+         }
+         .bg13 {
+            background-image: url(./images/codeXDAO_Xplorer.png);
+            border: 1px #1717cf solid;
+            background-size: cover;
          }
            #copyright{
             font-size: 12px;
@@ -1224,6 +1247,13 @@ li:hover {
         }
         .bg12 {
             background-image: url(./images/codeXDAO.png);
+            border: 1px #1717cf solid;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .bg13 {
+            background-image: url(./images/codeXDAO_Xplorer.png);
             border: 1px #1717cf solid;
             background-repeat: no-repeat;
             background-position: center;
