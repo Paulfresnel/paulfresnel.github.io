@@ -79,6 +79,26 @@ header{
     background-image: -webkit-linear-gradient(65deg, #1717cf 25%,  #013A6B 50%, #ffffff 50.3%, #013A6B 50.4%, #1717cf9c 75%, coral 90%, coral 100%);
 }
 
+.projects{
+    color: #D9DFE8;
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(65deg, #1717cf 25%, #013A6B 50%, #ffffff 50.3%, #013A6B 50.4%, #1717cf9c 75%, coral 90%, coral 100%);
+}
+
+#projects{
+    font-size: 1.75vw;
+    text-decoration: underline;
+    padding-bottom: 25px;
+    color: #D9DFE8;
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(65deg, #1717cf 25%, #013A6B 50%, #013A6B 50.4%, #1717cf9c 75%);
+}
+
+.projects > .card{
+    background-color: #a0bae1;
+    color: #1717cf;
+}
+
 #about{
     background-color: coral;
     margin-bottom: 0;
