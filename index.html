@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul's Portfolio</title>
     <script src="https://kit.fontawesome.com/c343de5fc7.js" crossorigin="anonymous"></script>
-<link rel='stylesheet' href="styles.css"></link>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     
 <header id='header' class="flex">
-    <img class='logo' src="./images/cookies illegal.png">
-    <h1>Paul's Portfolio</h1>
+    <img class='logo' src="./images/PortfolioLogo-offi.png">
+    <h1>Portfolio</h1>
     <ul class="margin nav-links">
         <li  class="navlink"><a href="#projects">Projects</a></li>
     </ul>
 </header>
 <div id='main' class='main'>
-    <h2>Full-stack Web Developer </h2> 
+    <h2 id="typed-text"></h2>
 </div>
 <div class="diagonal-split-background ">
     <div class="margined-sides">
@@ -28,25 +30,31 @@
     <p class="textual-paragraph space-left-plus">& creating great things</p>
     </div>
 </div>
-<div id="about" class="margined-sides-only-top">
-    <h4 class="coral-color">Who am I ?</h4>
-</div>
-<div class="coral-bg margined-sides">
-    <ul class="ul-list margined-sides-no-top">
-        <li class="margin-bottom list">Graduted with a BBA in 2017 from IE University, in Spain</li>
-        <li class="margin-bottom list">Graduated with a MIM in 2018 from ICADE Comillas University, in Spain</li>
-        <li class="margin-bottom list">5 years managing Digital Projects and developing Brand Growth</li>
-        <li class="margin-bottom list">FullStack Web Developer</li>
-        <li class="margin-bottom list">Technologies used: HTML5, CSS3, JavaScript(ES6), ExpressJs, NodeJs, NextJs, ReactJs, Axios, MongoDB, 
-            Git/Github, ethereum-cryptography, RESTful API </li>
+<div class="container">
+  <div id="about">
+    <h4 class="coral-color">Who am I?</h4>
+  </div>
+  <div class="coral-bg">
+    <ul class="ul-list">
+      <li class="margin-bottom list">Graduted with a BBA in 2017 from IE University, in Spain</li>
+      <li class="margin-bottom list">Graduated with a MIM in 2018 from ICADE Comillas University, in Spain</li>
+      <li class="margin-bottom list">5 years managing Digital Projects and developing Brand Growth</li>
+      <li class="margin-bottom list">FullStack Web Developer</li>
+      <li class="margin-bottom list">Technologies used: HTML5, CSS3, JavaScript(ES6), ExpressJs, NodeJs, NextJs, ReactJs, Axios, MongoDB, 
+        Git/Github, ethereum-cryptography, RESTful API </li>
     </ul>
+  </div>
 </div>
 
-<h3 id='projects'> Check My projects</h3>
+<div class="container">
+    <div id="projects">
+      <h4 class="coral-color">Check My Projects</h4>
+    </div>
+</div>
 
 <div class="projects">
-
     <div class="card">
+        <div class="background-image" style="background-image: url('./images/review-gpt.jpg');"></div>
         <i class="fa-lg fa-solid fa-robot"></i>
         <h4 class="margin-top">Review GPT: Review Generator</h4>
         <ul class="no-margin">
@@ -55,29 +63,24 @@
             <li class="spaced">Mobile-first design & Responsiveness</li>
             <li class="spaced">Keep record of your generated Reviews</li>
         </ul>
-    
-        <div class="background-image bg9">
-            <a class='project-link' href='https://review-gpt.netlify.app'>Discover</a>
-        </div>
+        <a class='project-link' href='https://review-gpt.netlify.app'>Discover</a>
     </div>
 
     <div class="card">
+        <div class="background-image" style="background-image: url('./images/skillroad.jpg');"></div>
         <i class="fa-lg fa-solid fa-scroll"></i>
         <h4>SkillRoad: P2P Knowledge Base</h4>
-        <p>
         <ul>
             <li class="spaced">Full Authentification & no-SQL MongoDB</li>
             <li class="spaced">Complex multi-level referenced database models</li>
             <li class="spaced">Mobile-first design & Responsiveness</li>
             <li class="spaced">Social Component & User's Leaderboard</li>
         </ul>
-        </p>
-        <div class="background-image bg8">
-            <a class='project-link' href='https://skillroad.netlify.app'>Discover</a>
-        </div>
+        <a class='project-link' href='https://skillroad.netlify.app'>Discover</a>
     </div>
 
     <div class="card">
+        <div class="background-image" style="background-image: url('./images/football-worldcup.jpg');"></div>
         <i class="fa-lg fa-regular fa-futbol"></i>
         <h4 class="margin-top">Football Worldcup 2022 App</h4>
         <ul>
@@ -86,13 +89,11 @@
             <li class="spaced">Uses an external API to update live football matches' stats</li>
             <li class="spaced">Users' leaderboard</li>
         </ul>
-    
-        <div class="background-image bg10">
-            <a class='project-link' href='https://football-worldcup-games.cyclic.app'/>Discover</a>
-        </div>
+        <a class='project-link' href='https://football-worldcup-games.cyclic.app'>Discover</a>
     </div>
 
     <div class="card">
+        <div class="background-image" style="background-image: url('./images/ethereum-explorer.jpg');"></div>
         <i class="fa-lg fa-solid fa-network-wired"></i>
         <h4 class="margin-top">Ethereum Block Explorer</h4>
         <ul class="no-margin">
@@ -101,13 +102,11 @@
             <li class="spaced">Leverages the <strong>Etherscan API</strong> to update ETH Price</li>
             <li class="spaced">Technologies used: ReactJs, Bootstrap, axios, NodeJs</li>
         </ul>
-    
-        <div class="background-image bg13">
-            <a class='project-link' href='https://codex-dao-blockexplorer.vercel.app'>Discover</a>
-        </div>
+        <a class='project-link' href='https://codex-dao-blockexplorer.vercel.app'>Discover</a>
     </div>
 
     <div class="card">
+        <div class="background-image" style="background-image: url('./images/ecdsa-crypto.jpg');"></div>
         <i class="fa-lg fa-solid fa-flask-vial"></i>
         <h4> ECDSA Node Cryptography </h4>
         <ul>
@@ -115,12 +114,11 @@
             <li>Leverages the <em><a href="https://github.com/ethereum/js-ethereum-cryptography">ethereum-cryptography</a></em> methods and utilities </li>
             <li>Transact securely through public and private key address signature and verification</li>
         </ul>
-        <div class="background-image  bg11">
-            <a class='project-link' href='https://ecdsa-cryptography.vercel.app/'>Discover</a>
-        </div>
+        <a class='project-link' href='https://ecdsa-cryptography.vercel.app/'>Discover</a>
     </div>
 
     <div class="card">
+        <div class="background-image" style="background-image: url('./images/codexdao.jpg');"></div>
         <i class="fa-lg fa-solid fa-share-nodes"></i>
         <h4> CodeXDAO </h4>
         <ul>
@@ -129,71 +127,81 @@
             <li>Leverages the <em><a href="https://alchemy.com">Alchemy</a></em> API methods and templates</li>
             <li>Bootstraped with the <strong><em>create-web3-dApp</em></strong> template</li>
         </ul>
-        <div class="background-image  bg12">
-            <a class='project-link' href='https://codex-dao.vercel.app/'>Discover</a>
-        </div>
+        <a class='project-link' href='https://codex-dao.vercel.app/'>Discover</a>
     </div>
     
-    
     <div class="card">
+        <div class="background-image" style="background-image: url('./images/chase-the-bull.jpg');"></div>
         <i class="fa-lg fa-solid fa-gamepad"></i>
-        <h4>Game: Chase The Bull </h4>
-        <p>Canvas-based game, inspired by cryptocurrencies and the blockchain industry. Only for pc and keyboard.</p>
-        <div class="background-image bg2">
-        <a class='project-link' href ='https://paulfresnel.github.io/game-chase-the-bull/index.html'>Discover</a>
-        </div>
+        <h4>Game: Chase The Bull</h4>
+        <ul>
+            <li>Canvas-based game</li>
+            <li>Inspired by cryptocurrencies and the blockchain industry</li>
+            <li>Designed for PC and keyboard use only</li>
+        </ul>
+        <a class='project-link' href='https://paulfresnel.github.io/game-chase-the-bull/index.html'>Discover</a>
     </div>
 
     <div class="card">
+        <div class="background-image" style="background-image: url('./images/crazy-quizz.jpg');"></div>
         <i class="fa-lg fa-solid fa-wand-sparkles"></i>
         <h4>Game: Crazy Quizz</h4>
-        <p>Test your knowledge in this General Culture Theme Quizz</p>
-        <div class="background-image bg3">
-        <a class='project-link' href ='https://paulfresnel.github.io/crazy-quizz/'>Discover</a>
-        </div>
+        <ul>
+            <li>Test your knowledge in General Culture</li>
+            <li>Interactive quiz game</li>
+            <li>Multiple categories and difficulty levels</li>
+        </ul>
+        <a class='project-link' href='https://paulfresnel.github.io/crazy-quizz/'>Discover</a>
     </div>
 
     <div class="card">
+        <div class="background-image" style="background-image: url('./images/battle-clash.jpg');"></div>
         <i class="fa-lg fa-solid fa-person-military-rifle"></i>
         <h4>Game: Battle Clash</h4>
-        <p class="unfinished"><em>unfinished</em></p>
-        <p>Multiplayer or Solitaire Game where you spawn units and try to reach the ennemy's base</p>
-        <div class="background-image bg4">
-        <a class='project-link' href ='https://paulfresnel.github.io/battle-clash/'>Discover</a>
-        </div>
+        <ul>
+            <li><em>Unfinished project</em></li>
+            <li>Multiplayer or Solitaire Game</li>
+            <li>Spawn units and try to reach the enemy's base</li>
+            <li>Strategic gameplay elements</li>
+        </ul>
+        <a class='project-link' href='https://paulfresnel.github.io/battle-clash/'>Discover</a>
     </div>
 
-     <div class="card">
+    <div class="card">
+        <div class="background-image" style="background-image: url('./images/calculator.jpg');"></div>
         <i class="fa-solid fa-calculator fa-lg"></i>
         <h4>App: Calculator</h4>
-        <p>Functional basic calculator</p>
-        <div class="background-image bg5">
-        <a class='project-link' href ='https://paulfresnel.github.io/calculator/'>Discover</a>
-        </div>
+        <ul>
+            <li>Functional basic calculator</li>
+            <li>Performs arithmetic operations</li>
+            <li>User-friendly interface</li>
+        </ul>
+        <a class='project-link' href='https://paulfresnel.github.io/calculator/'>Discover</a>
     </div>
     
     <div class="card">
+        <div class="background-image" style="background-image: url('./images/corporate-front.jpg');"></div>
         <i class="fa-lg fa-solid fa-user-tie"></i>
         <h4>Corporate Front Page</h4>
-        <p>Website Page for a B2B Packaging company</p>
-        <div class="background-image bg7">
-        <a class='project-link' href ='https://sleever-int.github.io'>Discover</a>
-        </div>
-
-        
+        <ul>
+            <li>Website Page for a B2B Packaging company</li>
+            <li>Professional design</li>
+            <li>Responsive layout</li>
+        </ul>
+        <a class='project-link' href='https://sleever-int.github.io'>Discover</a>
     </div>
 
     <div class="card">
+        <div class="background-image" style="background-image: url('./images/math-operations.jpg');"></div>
         <i class="fa-lg fa-solid fa-gamepad"></i>
-        <h4> Game: Mathematical Operations</h4>
-        <p>Resolve mathematical operations ranging from simple additions to complex products</p>
-        <div class="background-image  bg1">
-            <a class='project-link' href='https://paulfresnel.github.io/Mathematical-Operations-Game/'>Discover</a>
-        </div>
+        <h4>Game: Mathematical Operations</h4>
+        <ul>
+            <li>Resolve mathematical operations</li>
+            <li>Ranges from simple additions to complex products</li>
+            <li>Improves mental math skills</li>
+        </ul>
+        <a class='project-link' href='https://paulfresnel.github.io/Mathematical-Operations-Game/'>Discover</a>
     </div>
-    
-    
-
 </div>
 <div>
 
@@ -203,15 +211,17 @@
 <script src="script.js"></script>
 </body>
 <footer>
-    <div><img class='logo' src="./images/cookies illegal.png"></div>
-    <div>
-        <ul class="footer-nav">
-            <li class="footer-link"><i class="fa-lg fa-brands fa-square-twitter icon-footer"></i><a href="https://twitter.com/getmoustachu"></a></li>
-            <li class="footer-link"><i class="fa-lg fa-brands fa-linkedin icon-footer"></i><a href="https://www.linkedin.com/in/paul-fresnel/"></a></li>
-            <li class="footer-link"><i class="fa-lg fa-brands fa-square-github icon-footer"></i><a href="https://github.com/Paulfresnel"></a></li>
-        </ul>
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img class='logo' src="./images/PortfolioLogo-offi.png" alt="Paul Web Developer">
+    </div>
+    <div class="footer-social">
+      <a href="https://twitter.com/getmoustachu"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/paul-fresnel/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/Paulfresnel"><i class="fa-brands fa-github"></i></a>
     </div>
     <p id="text-copyright">Copyright: <span id="copyright"></span> ©</p>
+  </div>
 </footer>
 
 </html>
